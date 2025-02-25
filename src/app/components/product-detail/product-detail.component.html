@@ -1,0 +1,8 @@
+<h3>Detalles del Producto</h3>
+<div *ngIf="product">
+    <p><strong>Nombre:</strong> {{ product.name }}</p>
+<p><strong>Precio:</strong> ${{ product.price }}</p>
+<p><strong>Disponibilidad:</strong> {{ product.inStock ? 'In stock' : 'Agotado' }}</p>
+<p><strong>En oferta:</strong> {{ product.onSale ? 'Sí' : 'No' }}</p>
+  </div>
+  <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image">

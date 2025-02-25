@@ -1,0 +1,19 @@
+.on-sale {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .out-of-stock {
+    color: red;
+  }
+  li {
+    cursor: pointer; /* Cambia el cursor a una mano */
+    padding: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Sombrea el producto */
+    border-radius: 5px;
+  }
+  
